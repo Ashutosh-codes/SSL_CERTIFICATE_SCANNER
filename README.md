@@ -4,7 +4,7 @@ With the help of this script, we can automate the testssl.sh script to get the s
 To run the command, you need to ensure that your python version is at least 3. So, if your python version is less than 3, please upgrade it
 After this, to install pyopenssl, type:
 ```
-pip install pyopenss
+pip install pyopenssl
 ```
 Then we are ready to run our python script. 
 To run the script, type:
