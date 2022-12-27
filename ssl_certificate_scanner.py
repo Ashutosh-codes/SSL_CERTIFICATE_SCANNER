@@ -5,12 +5,7 @@ import json
 from argparse import ArgumentParser
 from ssl import PROTOCOL_TLSv1
 from datetime import datetime
-
-try:
-    from OpenSSL import SSL
-except ImportError:
-    print("Please install required modules using: pip install -r requirements.txt")
-    sys.exit(1)
+from OpenSSL import SSL
 
 def convert_to_json(dict_obj):
     json_formatted_str = json.dumps(dict_obj, indent=2)
